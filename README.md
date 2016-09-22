@@ -2,9 +2,22 @@
 
 
 快速，高效，低耗相册选择器，支持单选，多选，预览，缩放，滑动取消预览，QQ选择特性
-
+##图片展示
 <img src="TelegramGallery.gif" height= "528" width="320">
+##gradle依赖
 
+```gradle
+allprojects {
+		repositories {
+			...
+			maven { url "https://jitpack.io" }
+		}
+	}
+....
+dependencies {
+	        compile 'com.github.qq8585083:TelegramGallery:ca84343b91'
+	}
+```
 ##Getting Started
 ###configuration
 ```
